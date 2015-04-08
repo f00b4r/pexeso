@@ -1,4 +1,4 @@
-package pexeso.desktop.gui;
+package cz.jfx.pexeso.desktop.gui;
 
 import java.awt.Component;
 import java.awt.Toolkit;
@@ -7,17 +7,17 @@ import java.util.ArrayList;
 import java.util.Collections;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
-import pexeso.desktop.control.Controller;
-import pexeso.desktop.control.MoveEvent;
-import pexeso.desktop.data.Card;
-import pexeso.desktop.data.CardState;
-import static pexeso.desktop.data.CardState.HIDE;
-import static pexeso.desktop.data.CardState.HOLD;
-import static pexeso.desktop.data.CardState.SHOW;
-import pexeso.desktop.data.Coordinate;
-import pexeso.desktop.data.Move;
-import pexeso.desktop.data.SuccessMove;
-import pexeso.desktop.data.Timer;
+import cz.jfx.pexeso.desktop.control.Controller;
+import cz.jfx.pexeso.desktop.control.MoveEvent;
+import cz.jfx.pexeso.desktop.data.Card;
+import cz.jfx.pexeso.desktop.data.CardState;
+import static cz.jfx.pexeso.desktop.data.CardState.HIDE;
+import static cz.jfx.pexeso.desktop.data.CardState.HOLD;
+import static cz.jfx.pexeso.desktop.data.CardState.SHOW;
+import cz.jfx.pexeso.desktop.data.Coordinate;
+import cz.jfx.pexeso.desktop.data.Move;
+import cz.jfx.pexeso.desktop.data.SuccessMove;
+import cz.jfx.pexeso.desktop.data.Timer;
 
 /**
  *
@@ -80,7 +80,7 @@ public class MainFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Pexeso");
-        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/pexeso/resources/favicon.png")));
+        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/cz/jfx/pexeso/resources/favicon.png")));
 
         board.setLayout(new java.awt.GridLayout(rows, cols));
 
@@ -267,8 +267,8 @@ public class MainFrame extends javax.swing.JFrame {
             }
 
             // Create card
-            Card c = new Card(new ImageIcon(getClass().getResource("/pexeso/resources/cards/" + filename + ".png")),
-                    new ImageIcon(getClass().getResource("/pexeso/resources/cards/00.png")));
+            Card c = new Card(new ImageIcon(getClass().getResource("/cz/jfx/pexeso/resources/cards/" + filename + ".png")),
+                    new ImageIcon(getClass().getResource("/cz/jfx/pexeso/resources/cards/00.png")));
 
             // Make a copy
             Card copy = c.clone();

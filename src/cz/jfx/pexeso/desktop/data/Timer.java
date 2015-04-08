@@ -1,4 +1,4 @@
-package pexeso.desktop.data;
+package cz.jfx.pexeso.desktop.data;
 
 import java.util.TimerTask;
 

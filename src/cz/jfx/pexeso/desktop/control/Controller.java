@@ -1,6 +1,6 @@
-package pexeso.desktop.control;
+package cz.jfx.pexeso.desktop.control;
 
-import pexeso.desktop.gui.MainFrame;
+import cz.jfx.pexeso.desktop.gui.MainFrame;
 
 /**
  *

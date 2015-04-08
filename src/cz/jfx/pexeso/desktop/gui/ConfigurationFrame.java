@@ -1,7 +1,7 @@
-package pexeso.desktop.gui;
+package cz.jfx.pexeso.desktop.gui;
 
 import java.awt.Toolkit;
-import pexeso.desktop.control.Controller;
+import cz.jfx.pexeso.desktop.control.Controller;
 
 /**
  *
@@ -27,7 +27,7 @@ public class ConfigurationFrame extends javax.swing.JFrame {
         startButton = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/pexeso/resources/favicon.png")));
+        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/cz/jfx/pexeso/resources/favicon.png")));
         setResizable(false);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N

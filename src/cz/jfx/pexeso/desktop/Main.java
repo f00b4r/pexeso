@@ -1,8 +1,8 @@
-package pexeso.desktop;
+package cz.jfx.pexeso.desktop;
 
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
-import pexeso.desktop.gui.ConfigurationFrame;
+import cz.jfx.pexeso.desktop.gui.ConfigurationFrame;
 
 /**
  *
